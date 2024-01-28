@@ -1,8 +1,15 @@
-# React + Vite
+# 리액트 2주차 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 과제 목표
+- [x]  바닐라 프로젝트에서 동적으로 렌더링했던 UI 조각을 선택합니다.
+- [ ]  바닐라 프로젝트에서 활용했던 데이터베이스의 
+데이터를 JSON 파일로 로컬 드라이브에 저장합니다.
+- [x]  JSON 데이터를 불러와 마크업에 연결하여 UI를 구현하세요.
+필요한 경우, 리스트 렌더링을 활용해보세요.
 
-Currently, two official plugins are available:
+### 결과물 
+![image](https://github.com/vHwav/react-homework2/assets/148796897/5b03318f-216c-4e54-9e88-f677d8dc9580)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 아쉬웠던 점
+포켓베이스의 데이터를 JSON 파일로 불러오는 것을 시도하다가 결국 실패하고 json 파일을 수제로 만들어서 사용한 점이 아쉽다.
+json 파일로 불러올 수 없다면 fetch로라도 데이터를 불러오려 했는데, jsx 함수 안에서 async가 동작하지 않아서 어떻게 하는 건지 알고 싶다는 생각을 했다.
